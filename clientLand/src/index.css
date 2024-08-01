@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rozha+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+:root {
+  /* Colors */
+  --color-main--1: #0ec300;
+  --color-bg--0: #000000;
+  --color-bg--1: #788177;
+  --color-bg--3: #37373e;
+  --color-bg--4: #383434;
+
+  --color-bg--2: #7e7b7b;
+  --color-light--0: #fff;
+  --color-light--1: #ececec;
+
+  /* Font Family */
+
+  --font-family1: 'Rozha One', serif;
+  --font-family2: 'Montserrat', sans-serif;
+}

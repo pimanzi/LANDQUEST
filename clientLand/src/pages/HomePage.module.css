@@ -1,0 +1,122 @@
+.main {
+  padding: 0;
+}
+
+.hero h1 {
+  font-family: var(--font-family1);
+  font-size: 5rem;
+  font-weight: 400;
+  color: var(--color-main--1);
+  text-align: center;
+  margin-bottom: 0;
+}
+.hero {
+  background-color: var(--color-bg--0);
+  background-image: url('/public/images/heroBg.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding-top: 35px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+}
+.hero p {
+  font-family: var(--font-family2);
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  color: var(--color-light--0);
+  margin-top: 1.5rem;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 60.95px;
+  text-align: left;
+  color: var(--color-light--0);
+  font-family: var(--font-family1);
+}
+
+.hero h2 span {
+  color: var(--color-main--1);
+}
+
+.hero > div {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.welcome {
+  max-width: 30%;
+  margin-top: 120px;
+  min-width: 200px;
+}
+.img {
+  padding-top: 70px;
+  max-width: 40%;
+  min-width: 600px;
+  height: 523.15px;
+  gap: 0px;
+  border-radius: 0px 200px 0px 200px;
+  opacity: 0px;
+}
+
+.img img {
+  border-radius: 0px 200px 0px 200px;
+}
+
+.welcome button {
+  border: 1px solid var(--color-light--0);
+  font-family: var(--font-family2);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 29.26px;
+  text-align: center;
+  margin-top: 50px;
+  height: 100px;
+  width: 150px;
+  border-radius: 50%;
+}
+.about {
+  background-color: var(--color-bg--1);
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+.about h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 60.95px;
+  text-align: center;
+  color: var(--color-light--0);
+  font-family: var(--font-family1);
+}
+
+.about h2 span {
+  color: var(--color-main--1);
+}
+
+.abt {
+  display: flex;
+  justify-content: center;
+  gap: 250px;
+  padding-top: 70px;
+}
+
+.abt img {
+  width: 35%;
+}
+
+.abt p {
+  width: 30%;
+  font-family: var(--font-family2);
+  font-size: 1.5rem;
+  line-height: 1.2;
+  font-weight: 400;
+  text-align: left;
+  color: var(--color-light--0);
+}

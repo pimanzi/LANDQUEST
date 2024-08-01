@@ -1,0 +1,83 @@
+.danger {
+  background-color: #dc3545;
+  width: 40%;
+  font-family: var(--font-family2);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  align-self: center;
+}
+
+.success {
+  background-color: var(--color-main--1);
+  width: 40%;
+  font-family: var(--font-family2);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-self: center;
+  text-align: center;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.button {
+  font-size: 1.9rem;
+  background-color: transparent;
+  border: none;
+  color: var(--color-bg--2);
+  margin-left: 10px;
+}
+
+.danger1 {
+  background-color: #dc3545;
+  width: 40%;
+  font-family: var(--font-family2);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  align-self: center;
+  position: absolute;
+  top: -75px;
+  left: 17%;
+}
+
+.success2 {
+  background-color: var(--color-main--1);
+  width: 40%;
+  font-family: var(--font-family2);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-self: center;
+  text-align: center;
+  position: absolute;
+  top: 150px;
+  left: 300px;
+}
+.danger2 {
+  background-color: #dc3545;
+  width: 40%;
+  font-family: var(--font-family2);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-self: center;
+  text-align: center;
+  position: absolute;
+  top: 150px;
+  left: 300px;
+}

@@ -1,0 +1,13 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  place-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.main h1 {
+  font-family: var(--font-family2);
+  font-size: 5rem;
+  font-weight: 600px;
+  text-align: center;
+}

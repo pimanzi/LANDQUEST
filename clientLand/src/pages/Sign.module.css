@@ -1,0 +1,189 @@
+@keyframes moveBackground {
+  0% {
+    background-position: top right;
+  }
+  25% {
+    background-position: top left;
+  }
+  50% {
+    background-position: bottom left;
+  }
+  75% {
+    background-position: bottom right;
+  }
+  100% {
+    background-position: top right;
+  }
+}
+
+.sign {
+  display: flex;
+  place-content: center;
+}
+
+.main {
+  background-color: var(--color-bg--0);
+  min-height: 100vh;
+  background-image: url('/public/images/heroBg.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: moveBackground 5s linear infinite;
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  padding-block: 7vh;
+}
+
+.sign form {
+  background-color: var(--color-light--0);
+  padding-left: 30px;
+  padding-right: 30px;
+  border: 1px solid black;
+  border-radius: 40px 0px 0px 40px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.sign h2 {
+  font-family: var(--font-family2);
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 85.33px;
+  text-align: center;
+  color: black;
+  margin-bottom: 50px;
+}
+
+.row label {
+  display: block;
+  font-family: var(--font-family2);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24.38px;
+  margin-bottom: 5px;
+}
+
+.row input {
+  display: block;
+  background-color: #37373e;
+  padding: 10px;
+  font-family: var(--font-family2);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 18.29px;
+  color: #8c8c8c;
+  border-radius: 10px;
+  width: 100%;
+}
+.row {
+  margin-bottom: 20px;
+}
+
+.view {
+  font-family: var(--font-family2);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 24.38px;
+  text-align: center;
+  background-color: var(--color-main--1);
+  border: none;
+  color: var(--color-light--0);
+  padding-inline: 5px;
+  padding-block: 5px;
+  border-radius: 10px;
+  width: 90px;
+  height: 46px;
+  box-shadow: 1px 1px 2px rgb(85, 83, 83);
+  margin-top: 5px;
+}
+
+.login p {
+  margin-top: 15px;
+  font-family: var(--font-family2);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24.38px;
+  margin-bottom: 5px;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  padding-right: 110px;
+  padding-left: 20px;
+  padding-block: 40px;
+  border-radius: 0px 40px 40px 0px;
+  background-color: var(--color-bg--3);
+  background-color: var(--color-bg--3);
+  background-image: url('/public/images/loginBg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.welcome p:nth-child(1) {
+  font-family: var(--font-family2);
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: left;
+  color: white;
+}
+
+.welcome span {
+  color: var(--color-main--1);
+}
+
+.welcome p:nth-child(2) {
+  font-family: var(--font-family2);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24.38px;
+  text-align: left;
+  color: white;
+}
+
+.column {
+  display: flex;
+}
+
+.column .row label {
+  display: block;
+  font-family: var(--font-family2);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24.38px;
+  margin-bottom: 5px;
+}
+
+.column .row input {
+  display: block;
+  background-color: #37373e;
+  padding: 10px;
+  font-family: var(--font-family2);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 18.29px;
+  color: #8c8c8c;
+  border-radius: 10px;
+  width: 100%;
+}
+.column .row {
+  margin-bottom: 20px;
+}
+
+.sign a {
+  color: var(--color-main--1);
+  font-family: var(--font-family2);
+  font-weight: 800;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.sign a:hover {
+  color: var(--color-bg--1);
+  font-weight: 800;
+}
+
+.error {
+  color: red;
+}

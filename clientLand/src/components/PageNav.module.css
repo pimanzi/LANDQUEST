@@ -1,0 +1,72 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #161616;
+  color: var(--color-light--1);
+  padding-left: 40px;
+  padding-right: 50px;
+  height: 10vh;
+  padding-top: 35px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+/* CSS Modules feature */
+.nav li a:link,
+.nav li a:visited {
+  text-decoration: none;
+  color: var(--color-light--1);
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: var(--font-2);
+}
+.nav li a:hover {
+  color: var(--color-main--1);
+}
+
+.nav li a:global(.active) {
+  color: var(--color-main--1);
+}
+
+.nav li a.register {
+  color: var(--color-main--1);
+}
+
+.nav li a.active {
+  color: var(--color-main--1); /* Green color for active link */
+}
+
+.img img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.img {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.img p {
+  display: inline-block;
+  font-family: var(--font-family2);
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 29.26px;
+  text-align: left;
+}
+
+.img span {
+  color: var(--color-main--1);
+}

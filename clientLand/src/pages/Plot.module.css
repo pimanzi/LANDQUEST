@@ -1,0 +1,204 @@
+.plot {
+  background-color: #37373e;
+  min-height: 100vh;
+  padding-inline: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.plot h2 {
+  font-family: var(--font-family2);
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 60.95px;
+  text-align: center;
+  color: var(--color-light--0);
+  margin-bottom: 8vh;
+  padding: 3vh;
+}
+.details {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 80px;
+}
+.plotImg {
+  width: 400px;
+  height: auto;
+
+  border-radius: 20px;
+}
+
+.plotImg img {
+  border-radius: 20px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.profilePicture {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.personalDetails img {
+  width: 16px;
+  height: 16px;
+}
+.contact {
+  background-color: var(--color-light--0);
+  width: 400px;
+  height: auto;
+  border-radius: 20px;
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.contact h3 {
+  font-family: var(--font-family2);
+  font-size: 1.9rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.contactContainer {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 30px;
+}
+
+.details form input {
+  display: block;
+  margin-left: 20px;
+  padding-inline: 30px;
+  padding-block: 15px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.personalDetails .name {
+  font-family: var(--font-family2);
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 30.48px;
+  color: var(--color-main--1);
+  margin-bottom: 10px;
+}
+
+.personalDetails p {
+  font-family: var(--font-family2);
+  font-size: 1rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.contact button {
+  font-family: var(--font-family2);
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 24.38px;
+  text-align: center;
+  background-color: var(--color-main--1);
+  border: none;
+  color: var(--color-light--0);
+  padding-inline: 5px;
+  padding-block: 5px;
+  border-radius: 10px;
+  width: fit-content;
+  height: 46px;
+  box-shadow: 1px 1px 2px rgb(85, 83, 83);
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+.buttonCont {
+  display: flex;
+  width: 70%;
+  justify-content: center;
+}
+
+.details form input::placeholder {
+  font-family: var(--font-family2);
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 18.29px;
+  color: #8c8c8c;
+}
+
+.overview {
+  padding: 30px 30px;
+  width: 60%;
+  border-radius: 20px;
+  background-color: var(--color-light--0);
+}
+
+.overview img {
+  width: 52px;
+  height: 50px;
+}
+
+.icons {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons > div {
+  display: flex;
+}
+
+.overview h3 {
+  font-family: var(--font-family2);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+hr {
+  width: 90%;
+  margin-left: 0;
+}
+
+.info {
+  margin-top: 20px;
+}
+
+.property {
+  font-family: var(--font-family2);
+  font-weight: 700;
+}
+
+.value {
+  font-family: var(--font-family2);
+}
+
+.info h4 {
+  font-family: var(--font-family2);
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.info p {
+  font-family: var(--font-family2);
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.back {
+  font-family: var(--font-family2);
+  font-size: 4rem;
+  font-weight: bolder;
+  line-height: 24.38px;
+  text-align: center;
+  background-color: var(--color-main--1);
+  border: none;
+  color: var(--color-light--0);
+  border-radius: 10px;
+  width: 77px;
+  height: 44px;
+  box-shadow: 1px 1px 2px rgb(85, 83, 83);
+  margin-top: 5px;
+  margin-right: 20px;
+  padding-bottom: 30px;
+}

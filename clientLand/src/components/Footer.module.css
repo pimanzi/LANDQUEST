@@ -1,0 +1,87 @@
+.footer {
+  background-image: url('/public/images/contacting.jpeg');
+  padding-top: 70px;
+  padding-left: 200px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  gap: 100px;
+}
+
+.contact img {
+  width: 30px;
+  height: 30px;
+}
+
+.main h2 {
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 60.95px;
+  text-align: left;
+  color: var(--color-light--0);
+  font-family: var(--font-family1);
+}
+
+.main {
+  display: flex;
+  gap: 100px;
+  width: 70%;
+  justify-content: space-between;
+}
+
+.main p {
+  font-family: var(--font-family2);
+  font-size: 1rem;
+  line-height: 1.2;
+  font-weight: 400;
+  text-align: left;
+  color: var(--color-light--0);
+  display: flex;
+  gap: 20px;
+}
+
+.main h3 {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 60.95px;
+  text-align: left;
+  color: var(--color-light--0);
+  font-family: var(--font-family1);
+}
+
+.main a {
+  text-decoration: none;
+  color: var(--color-light--0);
+}
+
+.container {
+  border: 1px solid white;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  display: flex;
+  place-content: center;
+}
+
+.container a {
+  width: 80%;
+  margin-top: 5px;
+}
+
+.social {
+  display: flex;
+  gap: 100px;
+  width: 70%;
+  justify-content: center;
+}
+
+.copy {
+  font-family: var(--font-family2);
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: 600;
+  text-align: left;
+  color: var(--color-light--0);
+  text-align: left;
+}
