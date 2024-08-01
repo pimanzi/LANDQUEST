@@ -95,7 +95,6 @@ class LandResource(Resource):
 
 @lands_ns.route("/land/owner/<int:id>")
 class LandResource(Resource):
-    @login_required
     def get(self, id):
         user = Users.query.get(id)  
         if user is None:
